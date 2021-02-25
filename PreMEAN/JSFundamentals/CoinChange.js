@@ -65,7 +65,9 @@ function coinChange(n, obj) {
         }
     }
 
-    return Object.entries(change).forEach(([key, value]) => filter(val => val.value > 0));
+    return change;
+
+    // return Object.entries(change).forEach(([key, value]) => filter(val => val.value > 0));
 
     // return Object.entries(change).filter(val => val.value > 0);
 }
