@@ -1,4 +1,7 @@
 function binarySearch(arr, n) {
-    var min = 0,
-        max = n - 0;
+    var low = 0,
+        high = arr.length - 1;
+    while (low <= high) {
+
+    }
 }
